@@ -9,9 +9,13 @@
 - [handlers](#handlers)
   - [artify.js](#srchandlersartifyjs)
   - [change-separator.js](#srchandlerschange-separatorjs)
+  - [progress-handler.js](#srchandlersprogress-handlerjs)
+  - [scrub-handler.js](#srchandlersscrub-handlerjs)
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [progress-scrub.js](#srclistenersprogress-scrubjs)
+  - [time-update.js](#srclistenerstime-updatejs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [data.js](#srcdatajs)
@@ -61,6 +65,14 @@ changes the program's separator value
 | ----- | ------------------ | ----------------------------------------------------------- |
 | event | <code>Event</code> | triggered whenever a user types in the separator input area |
 
+---
+
+### [./src/handlers/progress-handler.js](./src/handlers/progress-handler.js?study)
+
+---
+
+### [./src/handlers/scrub-handler.js](./src/handlers/scrub-handler.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -94,6 +106,14 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/progress-scrub.js](./src/listeners/progress-scrub.js?study)
+
+---
+
+### [./src/listeners/time-update.js](./src/listeners/time-update.js?study)
 
 [TOP](#DOCS)
 

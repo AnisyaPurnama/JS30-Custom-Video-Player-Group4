@@ -1,3 +1,19 @@
+# About This Project
+
+1. This app is designed to play videos for the user
+1. It is developed by a group of HackYourFuture students
+1. The app comes with 5 main functions:
+* Play or Pause video
+* Volume Control
+* Playback Speed + Backlog
+* Progress Video
+## Users
+
+1. Users - Anyone who wants to play a video on the browser can use this app.
+
+## Language
+1. The project is created using Javascript & HTML, css is also used for styling.
+
 # Your JavaScript 30 Project
 
 > This starter repository is written to take the [javascript-30](https://github.com/HackYourFutureBelgium/javascript-30)to the next level. It comes with a small application already coded. If you're familiar using this template then go ahead and delete all of the files in `src/handlers`, `src/listeners` and `src/logic`, then empty the data object in `src/data.js` and the `id="user-interface"` in the `index.html`. If it's your first time using this starter or you'd like to refresh, take some time to study and step through the example code before clearing it out to make room for your own project.

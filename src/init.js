@@ -4,6 +4,11 @@
 import './listeners/inputting.js';
 import './listeners/change-separator.js';
 
+// Imports by Sharaf for Progress Bar (progress-video Branch)
+import './listeners/time-update.js';
+import './listeners/progress-scrub.js';
+//--End-- Sharaf Listeners for Progress-Video Branch
+
 // does your project have code that executes when the document or window are ready?
 // that code can go here
 

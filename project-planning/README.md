@@ -9,10 +9,10 @@
 * Progress Video
 ## Users
 
-1. Users - Anyone who wants to play a vide on the browswer can use this app.
+1. Users - Anyone who wants to play a video on the browser can use this app.
 
 ## Language
-1. The project is created using Javascript & HTML, css is also used for styling.
+1. The project is created using Javascript & HTML. CSS is also used for styling.
 
 
 # How to Plan

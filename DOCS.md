@@ -9,9 +9,11 @@
 - [handlers](#handlers)
   - [artify.js](#srchandlersartifyjs)
   - [change-separator.js](#srchandlerschange-separatorjs)
+  - [skipData.js](#srchandlersskipDatajs)
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [skipData.js](#srclistenersskipDatajs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [data.js](#srcdatajs)
@@ -61,6 +63,10 @@ changes the program's separator value
 | ----- | ------------------ | ----------------------------------------------------------- |
 | event | <code>Event</code> | triggered whenever a user types in the separator input area |
 
+---
+
+### [./src/handlers/skipData.js](./src/handlers/skipData.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -94,6 +100,10 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/skipData.js](./src/listeners/skipData.js?study)
 
 [TOP](#DOCS)
 

@@ -7,13 +7,13 @@
 <!-- BEGIN TOC -->
 
 - [handlers](#handlers)
-  - [play-and-pause.js](#srchandlersplay-and-pausejs)
+  - [togglePlay.js](#srchandlerstogglePlayjs)
+  - [updateButton.js](#srchandlersupdateButtonjs)
 - [listeners](#listeners)
-  - [play-and-pause.js](#srclistenersplay-and-pausejs)
+  - [click.js](#srclistenersclickjs)
+  - [pause.js](#srclistenerspausejs)
+  - [play.js](#srclistenersplayjs)
 - [logic](#logic)
-  - [reverse.js](#srclogicreversejs)
-- [data.js](#srcdatajs)
-- [init.js](#srcinitjs)
 
 <!-- END TOC -->
 
@@ -33,7 +33,11 @@ Handler function define user interactions. They will:
 
 ---
 
-### [./src/handlers/play-and-pause.js](./src/handlers/play-and-pause.js?study)
+### [./src/handlers/togglePlay.js](./src/handlers/togglePlay.js?study)
+
+---
+
+### [./src/handlers/updateButton.js](./src/handlers/updateButton.js?study)
 
 [TOP](#DOCS)
 
@@ -49,7 +53,15 @@ You can use the same handler in many different listeners, or add more than one l
 
 ---
 
-### [./src/listeners/play-and-pause.js](./src/listeners/play-and-pause.js?study)
+### [./src/listeners/click.js](./src/listeners/click.js?study)
+
+---
+
+### [./src/listeners/pause.js](./src/listeners/pause.js?study)
+
+---
+
+### [./src/listeners/play.js](./src/listeners/play.js?study)
 
 [TOP](#DOCS)
 
@@ -57,57 +69,10 @@ You can use the same handler in many different listeners, or add more than one l
 
 ---
 
-# Logic
-
-Logic functions are pure functions. They take primitives, objects or arrays as arguments and they return primitives, objects or arrays. Handlers will use logic functions to transform user input.
-
-Logic functions will _never_ ...
-
-- read from the DOM
-- write to the DOM
-- use events
-- use prompt/alert/confirm
-- use variables that are not parameters
-- use variables that are not declared locally
-
----
-
-### [./src/logic/reverse.js](./src/logic/reverse.js?study)
-
-<a name="reverseLogic"></a>
-
-## reverseLogic ⇒ <code>string</code>
-
-reverses a string
-
-**Returns**: <code>string</code> - the string reversed
-
-| Param | Type                | Description         |
-| ----- | ------------------- | ------------------- |
-| input | <code>string</code> | a string to reverse |
+# logic
 
 [TOP](#DOCS)
 
 ---
-
----
-
-## [./src/data.js](./src/data.js?study)
-
-<a name="data"></a>
-
-## data
-
-data that is saved and used between user interactionss
-
-**Properties**
-
-| Name      | Type                | Description           |
-| --------- | ------------------- | --------------------- |
-| mirrorArt | <code>string</code> | the full user artwork |
-
----
-
-## [./src/init.js](./src/init.js?study)
 
 <!-- END DOCS -->

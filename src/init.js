@@ -10,3 +10,6 @@ import './listeners/change-separator.js';
 import { data } from './data.js';
 
 document.getElementById('separator-input').value = data.separator;
+
+import './listeners/ratechange.js';
+import './listeners/ratemouse.js';

@@ -9,9 +9,12 @@
 - [handlers](#handlers)
   - [artify.js](#srchandlersartifyjs)
   - [change-separator.js](#srchandlerschange-separatorjs)
+  - [rate.js](#srchandlersratejs)
 - [listeners](#listeners)
   - [change-separator.js](#srclistenerschange-separatorjs)
   - [inputting.js](#srclistenersinputtingjs)
+  - [ratechange.js](#srclistenersratechangejs)
+  - [ratemouse.js](#srclistenersratemousejs)
 - [logic](#logic)
   - [reverse.js](#srclogicreversejs)
 - [data.js](#srcdatajs)
@@ -61,6 +64,10 @@ changes the program's separator value
 | ----- | ------------------ | ----------------------------------------------------------- |
 | event | <code>Event</code> | triggered whenever a user types in the separator input area |
 
+---
+
+### [./src/handlers/rate.js](./src/handlers/rate.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -94,6 +101,14 @@ calls the reverseHandler when a user types in the input field"></a>
 ## user input
 
 calls the reverseHandler when a user types in the input field
+
+---
+
+### [./src/listeners/ratechange.js](./src/listeners/ratechange.js?study)
+
+---
+
+### [./src/listeners/ratemouse.js](./src/listeners/ratemouse.js?study)
 
 [TOP](#DOCS)
 

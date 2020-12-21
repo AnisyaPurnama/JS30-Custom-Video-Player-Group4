@@ -14,6 +14,7 @@
   - [pause.js](#srclistenerspausejs)
   - [play.js](#srclistenersplayjs)
 - [logic](#logic)
+- [init.js](#srcinitjs)
 
 <!-- END TOC -->
 
@@ -74,5 +75,9 @@ You can use the same handler in many different listeners, or add more than one l
 [TOP](#DOCS)
 
 ---
+
+---
+
+## [./src/init.js](./src/init.js?study)
 
 <!-- END DOCS -->

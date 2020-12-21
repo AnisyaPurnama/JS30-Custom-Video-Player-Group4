@@ -18,5 +18,5 @@
  * @property {string} mirrorArt - the full user artwork
  */
 export const data = {
-  separator: '|',
+  mousedown : false,
 };

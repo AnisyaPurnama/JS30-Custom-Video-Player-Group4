@@ -7,14 +7,13 @@
 <!-- BEGIN TOC -->
 
 - [handlers](#handlers)
-  - [artify.js](#srchandlersartifyjs)
-  - [change-separator.js](#srchandlerschange-separatorjs)
+  - [togglePlay.js](#srchandlerstogglePlayjs)
+  - [updateButton.js](#srchandlersupdateButtonjs)
 - [listeners](#listeners)
-  - [change-separator.js](#srclistenerschange-separatorjs)
-  - [inputting.js](#srclistenersinputtingjs)
+  - [click.js](#srclistenersclickjs)
+  - [pause.js](#srclistenerspausejs)
+  - [play.js](#srclistenersplayjs)
 - [logic](#logic)
-  - [reverse.js](#srclogicreversejs)
-- [data.js](#srcdatajs)
 - [init.js](#srcinitjs)
 
 <!-- END TOC -->
@@ -35,31 +34,11 @@ Handler function define user interactions. They will:
 
 ---
 
-### [./src/handlers/artify.js](./src/handlers/artify.js?study)
-
-<a name="artifyHandler"></a>
-
-## artifyHandler
-
-creates a mirror-image rendering of the user input and displays the growing artwork
-
-| Param | Type               | Description                                                |
-| ----- | ------------------ | ---------------------------------------------------------- |
-| event | <code>Event</code> | triggered whenever a user releases a key in the input area |
+### [./src/handlers/togglePlay.js](./src/handlers/togglePlay.js?study)
 
 ---
 
-### [./src/handlers/change-separator.js](./src/handlers/change-separator.js?study)
-
-<a name="changeSeparatorHandler"></a>
-
-## changeSeparatorHandler
-
-changes the program's separator value
-
-| Param | Type               | Description                                                 |
-| ----- | ------------------ | ----------------------------------------------------------- |
-| event | <code>Event</code> | triggered whenever a user types in the separator input area |
+### [./src/handlers/updateButton.js](./src/handlers/updateButton.js?study)
 
 [TOP](#DOCS)
 
@@ -75,25 +54,15 @@ You can use the same handler in many different listeners, or add more than one l
 
 ---
 
-### [./src/listeners/change-separator.js](./src/listeners/change-separator.js?study)
-
-<a name="change separator
-calls handler that changes the mirror-arts separator"></a>
-
-## change separator
-
-calls handler that changes the mirror-arts separator
+### [./src/listeners/click.js](./src/listeners/click.js?study)
 
 ---
 
-### [./src/listeners/inputting.js](./src/listeners/inputting.js?study)
+### [./src/listeners/pause.js](./src/listeners/pause.js?study)
 
-<a name="user input
-calls the reverseHandler when a user types in the input field"></a>
+---
 
-## user input
-
-calls the reverseHandler when a user types in the input field
+### [./src/listeners/play.js](./src/listeners/play.js?study)
 
 [TOP](#DOCS)
 
@@ -101,54 +70,11 @@ calls the reverseHandler when a user types in the input field
 
 ---
 
-# Logic
-
-Logic functions are pure functions. They take primitives, objects or arrays as arguments and they return primitives, objects or arrays. Handlers will use logic functions to transform user input.
-
-Logic functions will _never_ ...
-
-- read from the DOM
-- write to the DOM
-- use events
-- use prompt/alert/confirm
-- use variables that are not parameters
-- use variables that are not declared locally
-
----
-
-### [./src/logic/reverse.js](./src/logic/reverse.js?study)
-
-<a name="reverseLogic"></a>
-
-## reverseLogic ⇒ <code>string</code>
-
-reverses a string
-
-**Returns**: <code>string</code> - the string reversed
-
-| Param | Type                | Description         |
-| ----- | ------------------- | ------------------- |
-| input | <code>string</code> | a string to reverse |
+# logic
 
 [TOP](#DOCS)
 
 ---
-
----
-
-## [./src/data.js](./src/data.js?study)
-
-<a name="data"></a>
-
-## data
-
-data that is saved and used between user interactionss
-
-**Properties**
-
-| Name      | Type                | Description           |
-| --------- | ------------------- | --------------------- |
-| mirrorArt | <code>string</code> | the full user artwork |
 
 ---
 
